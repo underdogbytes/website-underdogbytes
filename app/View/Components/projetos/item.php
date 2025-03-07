@@ -13,7 +13,7 @@ class item extends Component
      */
     public function __construct(
         public ?string $imgSrc,
-        public ?string $imgAlt,
+        public ?string $imgAlt = "",
         public ?string $nome,
         public ?string $tipo,
         public ?string $linkHref,
