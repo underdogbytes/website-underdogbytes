@@ -1,5 +1,5 @@
 <li class="item">
-    <img src="{{ $imgSrc }}" alt="{{ $imgAlt }}" />
+    <img src="{{ $imgSrc }}" alt="{{ $imgAlt ?? '' }}" />
 
     <div class="detalhes">
         @isset($nome)
