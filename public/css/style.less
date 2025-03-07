@@ -1,0 +1,74 @@
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+main {
+  padding: 2rem 1rem;
+}
+
+small {
+  font-size: 12px;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.secao-titulo {
+  .titulo {
+    font-weight: 900;
+  }
+}
+
+.galeria {
+  padding: 0;
+
+  .item {
+    display: grid;
+    grid-template-columns: 200px 2fr;
+    margin: 0 0 1rem 0;
+
+    @media screen and (max-width: 900px) {
+      grid-template-columns: 1fr;
+    }
+
+    img {
+      width: 100%;
+      max-width: 200px;
+
+      @media screen and (max-width: 900px) {
+        max-width: 100%;
+      }
+    }
+
+    .detalhes {
+      padding: 1rem;
+
+      .titulo {
+        margin: 0 0 0.5rem 0;
+      }
+    }
+  }
+}
+
+footer {
+  padding: 2rem 1rem;
+}
