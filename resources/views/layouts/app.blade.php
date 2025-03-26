@@ -20,6 +20,7 @@
   </head>
 
   <body>
+    <x-utils.navbar />
     <main>
       @yield('content')
     </main>
