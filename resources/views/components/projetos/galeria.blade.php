@@ -10,8 +10,9 @@
                 nome="Sorla DB"
                 dataTrabalho="2024"
                 tipo="Landing Page"
-                descricao="Essa biblioteca JavaScript que carrega o nome da mãe do criador,
-                    é um projeto openSource, no qual desenvolvi o design da landing page."
+                descricao="Essa biblioteca JavaScript, batizada em homenagem à mãe do criador,
+                    é um projeto openSource. Fui responsável pelo design da landing page,
+                    criando uma experiência visual atraente e funcional."
             />
 
             <x-projetos.item
@@ -19,10 +20,11 @@
                 nome="EduEdu Alfabetização"
                 dataTrabalho="2024"
                 tipo="Aplicativo"
-                descricao="Voltador para ajudar crianças com dificuldade em ler e escrever,
-                    o aplicativo da EduEdu em parceria com o Instituto ABCD
-                    foi um dos projetos no qual participei da versão dois
-                    enquanto prestei meus serviços a empresa Lyncas."
+                descricao="O aplicativo da EduEdu, desenvolvido em parceria com o Instituto ABCD,
+                    foi criado para apoiar crianças com dificuldades de leitura e escrita.
+                    Na versão 2 do projeto, atuei ativamente enquanto prestava meus serviços à empresa Lyncas,
+                    contribuindo para aprimorar a experiência e a acessibilidade do app,
+                    além de manter um código limpo e estruturado."
             />
 
             <x-projetos.item
@@ -30,9 +32,10 @@
                 dataTrabalho="2024"
                 nome="Colégio Evangélico Jaraguá"
                 tipo="Portal de gerenciamento"
-                descricao="O desenvolvimento de um novo portal para um colégio,
-                    pensando tanto no uso para alunos quanto funcionários da escola,
-                    foi um dos projetos que desenvolvi enquanto estava na empresa Lyncas."
+                descricao="Desenvolvi um novo portal de gerenciamento para o Colégio Evangélico Jaraguá,
+                    focado em melhorar a experiência de alunos e funcionários.
+                    O projeto, realizado durante meu tempo na Lyncas,
+                    teve como objetivo otimizar o acesso a informações e facilitar a gestão escolar."
             />
 
             <x-projetos.item
@@ -42,29 +45,31 @@
                 tipo="E-commerce OpenCart"
                 linkHref="https://faunadobrasil.com.br"
                 linkTexto="https://faunadobrasil.com.br"
-                descricao="Coleções Fauna do Brasil é uma loja de empreendedorismo sustentável local
-                    de bichinhos de pelúcia da fauna brasileira,
-                    que conscientiza seus clientes da importância e o quão ameaçadas algumas espécies estão.
-                    Foi um grande prazer trabalhar neste projeto."
+                descricao="Coleções Fauna do Brasil é uma loja de empreendedorismo sustentável de Curitiba
+                    que traz bichinhos de pelúcia inspirados na fauna brasileira.
+                    Além de encantar, a marca conscientiza seus clientes sobre a
+                    importância da preservação e alerta sobre espécies ameaçadas.
+                    Foi um grande prazer contribuir para este projeto!"
                 />
 
-            <x-projetos.item
-                imgSrc="{{ asset('imagens/mais-futuro.png') }}"
-                nome="Aplicativo Mais Futuro"
-                dataTrabalho="2022-2024"
-                tipo="Aplicativo PWA em VueJS"
-                descricao="
-                    Dediquei dois anos nesse projeto de tempo integral
-                    trabalhando tanto no design UI/UX e quanto desenvolvimento do aplicativo para a Mais Futuro,
-                    uma empresa de previdência privada do Paraná."
-            />
+                <x-projetos.item
+                    imgSrc="{{ asset('imagens/mais-futuro.png') }}"
+                    nome="Aplicativo Mais Futuro"
+                    dataTrabalho="2022-2024"
+                    tipo="Aplicativo PWA em VueJS"
+                    descricao="Dediquei dois anos, atuei em tempo integral no desenvolvimento do <a href='https://www.maisfuturo.com.br' target='_blank' rel='noopener noreferrer'>aplicativo PWA da Mais Futuro</a>,
+                        uma empresa de previdência privada do Paraná.
+                        Trabalhei tanto no design UI/UX quanto na implementação em Vue.js,
+                        garantindo uma experiência intuitiva e eficiente para os usuários."
+                />
 
             <x-projetos.item
                 imgSrc="{{ asset('imagens/tempestade-criativa.png') }}"
                 dataTrabalho="2022"
                 nome="Tempestade Criativa"
                 tipo="Landing Page em Laravel"
-                descricao="Desenvolvi a landing page desta agência curitibana."
+                descricao="Fui responsável pelo desenvolvimento da landing page desta agência curitibana,
+                    criando uma página eficiente, com navegação fluída e visualmente atraente"
             />
 
             <x-projetos.item
@@ -72,8 +77,9 @@
                 dataTrabalho="2022"
                 nome="Escola Renovação"
                 tipo="Website em Laravel"
-                descricao="Nesta escola da rede privada com valores cristãos do Paraná,
-                    desenvolvi tanto o design UI/UX do site institucional quanto escrevi o código do mesmo."
+                descricao="Nesta escola da rede privada cristã do Paraná,
+                    fui responsável tanto pelo design UI/UX quanto pelo desenvolvimento do código do site institucional,
+                    criando uma plataforma funcional e alinhada aos valores da instituição."
             />
 
             <x-projetos.item
@@ -81,8 +87,8 @@
                 dataTrabalho="2019"
                 nome="Show Gospel"
                 tipo="Blog em Laravel"
-                descricao="Há mais de 20 anos fornecendo conteúdo para o público gospel,
-                    a revista Show Gospel em 2019 teve um blog no qual participei do desenvolvimento."
+                descricao="Com mais de 20 anos de história fornecendo conteúdo para o público gospel,
+                    a revista Show Gospel lançou, em 2019, um blog no qual participei ativamente do desenvolvimento."
             />
         </ul>
     </div>

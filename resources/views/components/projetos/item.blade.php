@@ -4,24 +4,24 @@
     <div class="detalhes">
         @isset($nome)
         <h3 class="titulo">
-            {{ $nome }}
+            {!! $nome !!}
             @isset($dataTrabalho)
                 <small>
-                    ({{ $dataTrabalho }})
+                    ({!! $dataTrabalho !!})
                 </small>
             @endisset
         </h3>
         @endisset
 
         @isset($tipo)
-            <small>{{ $tipo }}</small>
+            <small>{!! $tipo !!}</small>
         @endisset
         
         @isset($descricao)
             <p>
                 <b>Sobre o projeto:</b>
                 <br>
-                {{ $descricao }}
+                {!! $descricao !!}
             </p>    
         @endisset
 
