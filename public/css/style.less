@@ -89,6 +89,58 @@ small {
   }
 }
 
+.card {
+  .card__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+    align-items: center;
+    border-bottom: 1px solid #1b1b1bdd;
+
+    .card__header__title {
+      margin: 0;
+    }
+
+    .card__header__buttons-container {
+      display: flex;
+
+      button {
+        width: 20px;
+        height: 20px;
+        margin: auto;
+        padding: 0;
+        background-color: transparent;
+        border: 1px solid #1b1b1bdd;
+        text-align: center;
+      }
+    }
+  }
+
+  .card__body {
+    padding: 1rem;
+  }
+  
+  &.card--y2k {
+    width: fit-content;
+    max-width: 600px;
+    border: 1px solid #1b1b1bdd;
+
+    .card__header {
+      background-color: #aa93ff;
+
+      .card__header__buttons-container {
+        button {
+          background-color: #ffda56;
+        }
+      }
+    }
+
+    .card__body {
+      background-color: #f8f2da;
+    }
+  }
+}
+
 footer {
   padding: 2rem 1rem;
 }
