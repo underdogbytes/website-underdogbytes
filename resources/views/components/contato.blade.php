@@ -2,6 +2,6 @@
   <div class="inner">
     <h2>Informações de Contato</h2>
     <p>Para me contatar, me mande uma mensagem nesse endereço eletrônico:</p>
-    <a href="mailto:underdogbytes@gmail.com.br">underdogbytes@gmail.com.br</a>
+    <a href="mailto:underdogbytes@gmail.com">underdogbytes@gmail.com</a>
   </div>
 </section>
