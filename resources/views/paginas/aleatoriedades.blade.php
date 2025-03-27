@@ -5,7 +5,7 @@
     <div class="inner">
       <x-utils.titulo titulo="Eu disse que era algo aleatório" />
       <img
-        src="{{ $imagem['src'] }}"
+        src="{{ asset($imagem['src']) }}"
         alt="{{ $imagem['alt'] }}"
       />
       <p>Obrigada por visitar, volte logo! :D</p>
