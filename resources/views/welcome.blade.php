@@ -25,4 +25,5 @@
    </div>
     <x-projetos.galeria />
     <x-contato />
+    <x-duvidas-frequentes />
 @endsection
