@@ -150,17 +150,27 @@ small {
 
 .win98__screen-icon__container {
   display: grid;
-  width: fit-content;
-  font-size: 12px;
+  grid-template-columns: repeat(auto-fill, 100px);
 
-  img {
-    width: 100%;
-    max-width: 60px;
-    margin: auto;
-  }
+  a {
+    width: fit-content;
+    text-align: center;
 
-  span {
-    margin: 0.3rem 0 0 0;
+    .win98__screen-icon__container__list-icons__icon {
+      display: grid;
+      width: fit-content;
+      font-size: 12px;
+    
+      img {
+        width: 100%;
+        max-width: 60px;
+        margin: auto;
+      }
+    
+      span {
+        margin: 0.3rem 0 0 0;
+      }
+    }
   }
 }
 
