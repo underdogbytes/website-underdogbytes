@@ -19,7 +19,7 @@ class ContentSecurityPolicy
         $response = $next($request);
 
         // Definindo a política de CSP
-        $csp = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; object-src 'none';";
+        $csp = "default-src 'self';  script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; object-src 'none';";
 
         // Adicionando o header CSP na resposta
         $response->headers->set('Content-Security-Policy', $csp);
