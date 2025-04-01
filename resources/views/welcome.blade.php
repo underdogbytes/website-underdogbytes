@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <x-utils.titulo titulo="Bem-vindo ao meu website! :D" />
     <div class="inner">
+        <x-utils.titulo titulo="Bem-vindo ao meu website! :D" />
+        <x-win98.screen-shorcuts />
         <x-utils.cards.y2k
             titulo="Você recebeu uma mensagem"
             texto="<p>
