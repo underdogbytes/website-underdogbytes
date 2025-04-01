@@ -6,6 +6,20 @@
 
         <ul class="galeria">
             <x-projetos.item
+                imgSrc="{{ asset('imagens/olachico.png') }}"
+                nome="Olá Chico"
+                dataTrabalho="2024"
+                tipo="Website Portfólio"
+                descricao="Desenvolvi o website portfólio de Chico,
+                    artista contemporâneo de Curitiba, especializado em quadros e murais de alto padrão.
+                    Através das cores, formas e materiais diversos, Chico cria narrativas visuais únicas.
+                    O site reflete essa identidade artística, proporcionando uma experiência imersiva.
+                    Sigo acompanhando o projeto, oferecendo suporte e manutenção para
+                    garantir a melhor performance atualização contínua."
+                linkHref="https://olachico.com"
+            />
+
+            <x-projetos.item
                 imgSrc="{{ asset('imagens/sorla-db.png') }}"
                 nome="Sorla DB"
                 dataTrabalho="2024"
@@ -44,7 +58,6 @@
                 dataTrabalho="2022"
                 tipo="E-commerce OpenCart"
                 linkHref="https://faunadobrasil.com.br"
-                linkTexto="https://faunadobrasil.com.br"
                 descricao="Coleções Fauna do Brasil é uma loja de empreendedorismo sustentável de Curitiba
                     que traz bichinhos de pelúcia inspirados na fauna brasileira.
                     Além de encantar, a marca conscientiza seus clientes sobre a
