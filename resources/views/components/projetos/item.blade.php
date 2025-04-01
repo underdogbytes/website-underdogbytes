@@ -27,7 +27,7 @@
 
         @isset($linkHref)
             <small>
-                <b>Visite o site:</b> <a href="{{ $linkHref }}">{{ $linkTexto ? $linkTexto : $linkHref }}</a>
+                <b>Visite o site:</b> <a href="{{ $linkHref }}">{{ $linkTexto ?? $linkHref }}</a>
             </small>
         @endisset
     </div>
