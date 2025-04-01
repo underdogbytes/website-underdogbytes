@@ -1,10 +1,11 @@
-<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
   <head>
     <!-- Meta tags principais -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="UnderdogBytes (Bea)">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@yield('title') - UnderdogBytes</title>
     <meta
       name="description"
       content="Portfólio de UnderdogBytes, engenheira de software, programadora e artista visual. Explore projetos de desenvolvimento, UI design e arte.">
@@ -15,7 +16,6 @@
     <!-- Meta tags para motores de busca -->
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
-    <title>@yield('title') - UnderdogBytes</title>
 
     <link href="{{ asset('css/style.less') }}" rel="stylesheet">
   </head>
