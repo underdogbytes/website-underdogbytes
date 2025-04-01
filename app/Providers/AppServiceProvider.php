@@ -20,6 +20,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        $this->app['router']->pushMiddlewareToGroup('web', \App\Http\Middleware\ContentSecurityPolicy::class);
+
         if(env('APP_ENV') == 'local') {
             URL::forceScheme('http');
         }
