@@ -6,6 +6,7 @@
         <x-utils.titulo titulo="Bem-vindo ao meu website! :D" />
         <x-win98.screen-shorcuts />
         <x-utils.cards.y2k
+            tipo="h3"
             titulo="Você recebeu uma mensagem"
             texto="<p>
             Bom dia! ^-^

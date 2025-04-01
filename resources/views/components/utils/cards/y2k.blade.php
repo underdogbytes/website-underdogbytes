@@ -1,6 +1,6 @@
 <div class="card card--y2k">
   <div class="card__header">
-    <h4 class="card__header__title">{!! $titulo !!}</h4>
+    <{{ $tipo ?? 'h2' }} class="card__header__title">{!! $titulo !!}</{{ $tipo ?? 'h2' }}>
 
     <div class="card__header__buttons-container">
       <button>X</button>
