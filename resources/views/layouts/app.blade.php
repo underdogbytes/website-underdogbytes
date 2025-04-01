@@ -14,7 +14,7 @@
     <!-- Meta tags para motores de busca -->
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
-    <title>@yield('title')</title>
+    <title>@yield('title') - UnderdogBytes</title>
 
     <link href="{{ asset('css/style.less') }}" rel="stylesheet">
   </head>

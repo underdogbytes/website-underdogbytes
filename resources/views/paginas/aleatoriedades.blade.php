@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Aleatoriedades')
 
 @section('content')
   <section>
