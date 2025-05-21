@@ -5,6 +5,6 @@
       <img src="{{ asset('imagens/icones/clippy.webp') }}" alt="ícone de clipe do microsoft word" />
     </div>
 
-    <x-duvidas-frequentes.duvida />
+    <x-duvidas-frequentes.duvida-lista />
   </div>
 </section>
