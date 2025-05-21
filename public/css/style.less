@@ -183,9 +183,19 @@ footer {
   .btns {
     display: flex;
 
+    @media screen and (max-width: 400px) {
+      display: block;
+    }
+
     a {
       width: fit-content;
       color: #fff;
+
+      button {
+        @media screen and (max-width: 400px) {
+          width: 100%;
+        }
+      }
     }
   }
 
