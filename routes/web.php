@@ -15,7 +15,7 @@ Route::middleware([ContentSecurityPolicy::class])->group(function () {
         return view('paginas.blog');
     });
     
-    Route::get('contato', function () {
-        return view('paginas.contato');
+    Route::get('sobre', function () {
+        return view('paginas.sobre');
     });
 });
