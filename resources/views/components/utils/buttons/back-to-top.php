@@ -1,5 +1,5 @@
 <a href="#topo">
   <button>
-    Clique para voltar ao topo
+    Voltar ao topo
   </button>
 </a>

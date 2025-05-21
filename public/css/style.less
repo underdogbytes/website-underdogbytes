@@ -1,6 +1,3 @@
-/* Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 * {
   box-sizing: border-box;
 }
@@ -14,9 +11,11 @@ body {
 }
 
 body {
+  background-color: #c0c0c0;
   overflow-x: hidden;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Courier New', monospace;
   font-size: 14px;
+  color: #000;
 }
 
 main {
@@ -32,22 +31,18 @@ img {
 }
 
 button {
-  min-width: 44px;
-  min-height: 44px;
-  margin: 1rem 0;
-  padding: 5px 10px;
+  padding: 0.5rem 1rem;
+  border: 2px outset #fff;
+  background: #f0f0f0;
+  text-decoration: none;
+  color: #000;
 
-  background: #e0e0e0;
-  border: 1px solid #000000;
-  box-shadow: 1px 1px 1px rgb(0 0 0), 1px 1px 1px rgba(255, 255, 255, 0.5);
-  cursor: pointer;
-  font-family: 'Tahoma', sans-serif;
-}
-
-button:hover,
-button:active {
-  background: #c0c0c0;
-  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2), inset 1px 1px 3px rgba(255, 255, 255, 0.337);
+  &:hover {
+    border-style: inset;
+    background: #000080;
+    cursor: pointer;
+    color: #fff;
+  }
 }
 
 small {
@@ -138,7 +133,8 @@ small {
     border: 1px solid #1b1b1bdd;
 
     .card__header {
-      background-color: #aa93ff;
+      background-color: #000080;
+      color: #fff;
 
       .card__header__buttons-container {
         button {
@@ -181,6 +177,26 @@ small {
 
 footer {
   padding: 2rem 1rem;
+  background-color: #000080;
+  color: #fff;
+
+  .btns {
+    display: flex;
+
+    a {
+      width: fit-content;
+      color: #fff;
+    }
+  }
+
+  a {
+    &:link,
+    &:visited,
+    &:active,
+    &:focus {
+      background-color: #c0c0c0;
+    }
+  }
 }
 
 /* seção contato */

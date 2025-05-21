@@ -1,6 +1,6 @@
 <footer>
     <div class="inner">
-        <div>
+        <div class="btns">
             <x-utils.buttons.default
                 link="/"
                 label="Home"
@@ -15,8 +15,8 @@
                 link="blog"
                 label="Blog"
             />
+            <x-utils.buttons.back-to-top />
         </div>
-        <x-utils.buttons.back-to-top />
         <br>
         <small>
             ˙✧˖° Programado em Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
