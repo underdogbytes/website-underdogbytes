@@ -19,7 +19,8 @@
         <x-utils.buttons.back-to-top />
         <br>
         <small>
-            Feito com Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+            ˙✧˖° Programado em Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+            a base de muito yakissoba, chá e carinho de gatos ⋆｡˚✧
             <br>
             © by <a href="{{ url('/contato') }}">Underdogbytes</a> 2025
         </small>
