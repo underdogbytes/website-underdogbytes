@@ -52,6 +52,10 @@ small {
 .inner {
   max-width: 1200px;
   margin: auto;
+
+  @media screen and (max-width: 1200px) {
+    max-width: -webkit-fill-available;
+  }
 }
 
 .secao-titulo {
