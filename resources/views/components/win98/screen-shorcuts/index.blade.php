@@ -15,6 +15,13 @@
         imagemSrc="imagens/icones/ajuda.png"
         link="#perguntas-frequentes"
       />
+
+      <x-win98.screen-shorcuts.icon
+        nome="Apoie-me no Patreon :D"
+        imagemAlt="ícone de caneca com gato estampado e fumaça em formato de coração saindo"
+        imagemSrc="imagens/pixelart/caneca.gif"
+        link="https://www.patreon.com/c/btrz"
+      />
     </div>
   </div>
 </section>

@@ -9,4 +9,5 @@
     </div>
   </section>
   <x-contato />
+  <x-utils.cards.support-me />
 @endsection
