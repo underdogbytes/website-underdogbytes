@@ -1,4 +1,4 @@
-<section id="contact" class="contact">
+<section id="contato" class="contact">
   <div class="inner">
     <div class="container--image">
       <img src="{{ asset('imagens/objects/nokia.png') }}" alt="Imagem de um Nokia 3310 com fundo transparente" />
