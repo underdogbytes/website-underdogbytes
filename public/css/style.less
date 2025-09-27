@@ -230,7 +230,52 @@ footer {
 }
 
 /* seção contato */
-.contato__header {
+.contact {
+  .inner {
+    display: flex;
+    gap: 3rem;
+
+    .container--image {
+      width: 100%;
+      max-width: 100px;
+      position: relative;
+      transform: rotate(30deg);
+      overflow: visible;
+
+      &:hover {
+        transform: rotate(10deg);
+
+        &::after {
+          opacity: 1;
+          z-index: 3;
+        }
+      }
+
+      &::after {
+        content: "ring ring ring 😺";
+        position: absolute;
+        bottom: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #333;
+        color: #e1be26;
+        padding: 6px 8px;
+        border-radius: 6px;
+        white-space: nowrap;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s;
+      }
+    }
+  
+    .container--content {
+      margin: auto 0;
+    }
+  }
+}
+
+/* Home: dúvidas frequentes */
+.perguntas-frequentes__header {
   display: flex;
   margin: 0 0 1rem 0;
   gap: 1rem;
@@ -241,7 +286,6 @@ footer {
   }
 }
 
-/* Home: dúvidas frequentes */
 .duvidas-lista {
   .duvidas-lista__item {
     margin: 2rem 0 0 0;
