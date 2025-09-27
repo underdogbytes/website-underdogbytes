@@ -6,8 +6,8 @@
     <div class="inner">
       <x-utils.titulo titulo="Underdogbytes" />
       <x-sobre.bio />
+      <x-utils.cards.support-me />
     </div>
   </section>
   <x-contato />
-  <x-utils.cards.support-me />
 @endsection
