@@ -16,7 +16,7 @@ class item extends Component
         public ?string $imgAlt = "",
         public ?string $nome,
         public ?string $tipo,
-        public ?string $linkHref,
+        public ?string $linkExterno,
         public ?string $linkTexto,
         public ?string $descricao,
         public ?string $dataTrabalho

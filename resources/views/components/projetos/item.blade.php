@@ -25,9 +25,9 @@
             </p>    
         @endisset
 
-        @isset($linkHref)
+        @isset($linkExterno)
             <small>
-                <b>Visite o site:</b> <a href="{{ $linkHref }}">{{ $linkTexto ?? $linkHref }}</a>
+                <b>Visite em:</b> <a href="{{ $linkExterno }}" target="_blank">{{ $linkTexto ?? $linkExterno }}</a>
             </small>
         @endisset
     </div>

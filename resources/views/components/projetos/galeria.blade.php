@@ -16,7 +16,7 @@
                     O site reflete essa identidade artística, proporcionando uma experiência imersiva.
                     Sigo acompanhando o projeto, oferecendo suporte e manutenção para
                     garantir a melhor performance atualização contínua."
-                linkHref="https://olachico.com"
+                linkExterno="https://olachico.com"
             />
 
             <x-projetos.item
@@ -57,7 +57,7 @@
                 nome="Coleções Fauna do Brasil"
                 dataTrabalho="2022"
                 tipo="E-commerce OpenCart"
-                linkHref="https://faunadobrasil.com.br"
+                linkExterno="https://faunadobrasil.com.br"
                 descricao="Coleções Fauna do Brasil é uma loja de empreendedorismo sustentável de Curitiba
                     que traz bichinhos de pelúcia inspirados na fauna brasileira.
                     Além de encantar, a marca conscientiza seus clientes sobre a
