@@ -36,7 +36,7 @@
                 tipo="Aplicativo"
                 descricao="O aplicativo da EduEdu, desenvolvido em parceria com o Instituto ABCD,
                     foi criado para apoiar crianças com dificuldades de leitura e escrita.
-                    Na versão 2 do projeto, atuei ativamente enquanto prestava meus serviços à empresa Lyncas,
+                    Na versão 2 do projeto, atuei ativamente enquanto prestava meus serviços à empresa <a href='https://lyncas.net' target='_blank'>Lyncas</a>,
                     contribuindo para aprimorar a experiência e a acessibilidade do app,
                     além de manter um código limpo e estruturado."
             />
@@ -45,10 +45,10 @@
                 imgSrc="{{ asset('imagens/cej.png') }}"
                 dataTrabalho="2024"
                 nome="Colégio Evangélico Jaraguá"
-                tipo="Portal de gerenciamento"
+                tipo="Portal de gerenciamento escolar"
                 descricao="Desenvolvi um novo portal de gerenciamento para o Colégio Evangélico Jaraguá,
                     focado em melhorar a experiência de alunos e funcionários.
-                    O projeto, realizado durante meu tempo na Lyncas,
+                    O projeto, realizado durante a prestação de serviços na empresa <a href='https://lyncas.net' target='_blank'>Lyncas</a>,
                     teve como objetivo otimizar o acesso a informações e facilitar a gestão escolar."
             />
 
