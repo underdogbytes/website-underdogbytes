@@ -275,14 +275,21 @@ footer {
 }
 
 /* Home: dúvidas frequentes */
-.perguntas-frequentes__header {
-  display: flex;
-  margin: 0 0 1rem 0;
-  gap: 1rem;
-  align-items: center;
+.perguntas-frequentes {
+  &__header {
+    display: flex;
+    margin: 0 0 1rem 0;
+    gap: 1rem;
+    align-items: center;
+  }
 
-  img {
-    width: 100px;
+  &__imagem {
+    width: 100%;
+    max-width: 100px;
+
+    :hover {
+      animation: gelatine 0.5s infinite;
+    }
   }
 }
 
@@ -293,5 +300,25 @@ footer {
     h3 {
       margin: 0;
     }
+  }
+}
+
+// Animações
+@keyframes gelatine {
+  from,
+  to {
+    transform: scale(1, 1);
+  }
+
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+
+  75% {
+    transform: scale(0.95, 1.05);
   }
 }

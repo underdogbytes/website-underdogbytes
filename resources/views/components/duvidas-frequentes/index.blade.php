@@ -2,7 +2,9 @@
   <div class="inner">
     <div class="perguntas-frequentes__header">
       <x-utils.titulo titulo="Perguntas frequentes" />
-      <img src="{{ asset('imagens/icones/clippy.webp') }}" alt="ícone de clipe do microsoft word" />
+      <div class="perguntas-frequentes__imagem">
+        <img src="{{ asset('imagens/icones/clippy.webp') }}" alt="ícone de clipe do microsoft word" />
+      </div>
     </div>
 
     <x-duvidas-frequentes.duvida-lista />

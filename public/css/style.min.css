@@ -280,8 +280,13 @@ footer a:focus {
   align-items: center;
 }
 
-.perguntas-frequentes__header img {
-  width: 100px;
+.perguntas-frequentes__imagem {
+  width: 100%;
+  max-width: 100px;
+}
+
+.perguntas-frequentes__imagem :hover {
+  animation: gelatine 0.5s infinite;
 }
 
 .duvidas-lista .duvidas-lista__item {
@@ -290,4 +295,24 @@ footer a:focus {
 
 .duvidas-lista .duvidas-lista__item h3 {
   margin: 0;
+}
+
+@keyframes gelatine {
+
+  from,
+  to {
+    transform: scale(1, 1);
+  }
+
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+
+  75% {
+    transform: scale(0.95, 1.05);
+  }
 }
