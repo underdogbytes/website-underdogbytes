@@ -303,6 +303,85 @@ footer {
   }
 }
 
+/* POP-UPS*/
+.popup {
+  position: relative;
+  background: #c0c0c0;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+
+  &--mini {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  &__header {
+    width: 100%;
+    padding: 0.2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B0A26;
+    color: #D8A7D9;
+
+    &__title {
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+
+  &__body {
+    padding: 2rem;
+  }
+}
+
+/* TASKBAR */
+.taskbar {
+  background: #c0c0c0;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 6px;
+  height: 32px;
+}
+
+.taskbar .start {
+  background: #c0c0c0;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+  padding: 2px 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.taskbar .start:active {
+  border-top: 2px solid #404040;
+  border-left: 2px solid #404040;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.taskbar .tray {
+  padding: 0 8px;
+  border-top: 2px solid #404040;
+  border-left: 2px solid #404040;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  background: #c0c0c0;
+}
+
 // Animações
 @keyframes gelatine {
   from,

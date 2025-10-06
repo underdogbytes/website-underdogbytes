@@ -1,13 +1,9 @@
-<div class="card card--y2k">
-  <div class="card__header">
-    <{{ $tipo ?? 'h2' }} class="card__header__title">{!! $titulo !!}</{{ $tipo ?? 'h2' }}>
-
-    <div class="card__header__buttons-container">
-      <button>X</button>
-    </div>
+<div class="popup popup--mini">
+  <div class="popup__header">
+    <{{ $tipo ?? 'h2' }} class="popup__header__title">{!! $titulo !!}</{{ $tipo ?? 'h2' }}>
   </div>
 
-  <div class="card__body">
+  <div class="popup__body">
     {!! $texto !!}
   </div>
 </div>
