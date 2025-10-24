@@ -1,0 +1,406 @@
+:root {
+  --max-width: 80%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #c0c0c0;
+  overflow-x: hidden;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  color: #000;
+}
+
+header .header__content {
+  width: var(--max-width);
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+header .header__content > * {
+  margin: auto;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: 2px outset #fff;
+  background: #f0f0f0;
+  text-decoration: none;
+  color: #000;
+}
+
+button:hover {
+  border-style: inset;
+  background: #000080;
+  cursor: pointer;
+  color: #fff;
+}
+
+small {
+  font-size: 12px;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .inner {
+    max-width: -webkit-fill-available;
+  }
+}
+
+.secao-titulo {
+  width: fit-content;
+  height: fit-content;
+}
+
+.secao-titulo .titulo {
+  font-weight: 900;
+}
+
+.galeria {
+  padding: 0;
+}
+
+.galeria .item {
+  display: grid;
+  grid-template-columns: 200px 2fr;
+  margin: 0 0 1rem 0;
+}
+
+@media screen and (max-width: 900px) {
+  .galeria .item {
+    grid-template-columns: 1fr;
+  }
+}
+
+.galeria .item img {
+  width: 100%;
+  max-width: 200px;
+}
+
+@media screen and (max-width: 900px) {
+  .galeria .item img {
+    max-width: 100%;
+  }
+}
+
+.galeria .item .detalhes {
+  padding: 1rem;
+}
+
+.galeria .item .detalhes .titulo {
+  margin: 0 0 0.5rem 0;
+}
+
+.card .card__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem;
+  align-items: center;
+  border-bottom: 1px solid #1b1b1bdd;
+}
+
+.card .card__header .card__header__title {
+  margin: 0;
+}
+
+.card .card__header .card__header__buttons-container {
+  display: flex;
+}
+
+.card .card__header .card__header__buttons-container button {
+  min-width: 20px;
+  width: 20px;
+  min-height: 20px;
+  height: 20px;
+  margin: auto;
+  padding: 0;
+  background-color: transparent;
+  border: 1px solid #1b1b1bdd;
+  text-align: center;
+}
+
+.card .card__body {
+  padding: 1rem;
+}
+
+.card.card--y2k {
+  width: fit-content;
+  max-width: 600px;
+  border: 1px solid #1b1b1bdd;
+}
+
+.card.card--y2k .card__header {
+  background-color: #000080;
+  color: #fff;
+}
+
+.card.card--y2k .card__header .card__header__buttons-container button {
+  background-color: #ffda56;
+}
+
+.card.card--y2k .card__body {
+  background-color: #f8f2da;
+}
+
+.card.card--support-me {
+  display: grid;
+  max-width: 120px;
+}
+
+.card.card--support-me img {
+  margin: auto;
+}
+
+.card.card--support-me a {
+  width: fit-content;
+  text-align: center;
+}
+
+.win98__screen-icon__container {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+}
+
+.win98__screen-icon__container a {
+  width: fit-content;
+  text-align: center;
+}
+
+.win98__screen-icon__container a .win98__screen-icon__container__list-icons__icon {
+  display: grid;
+  width: fit-content;
+  font-size: 12px;
+}
+
+.win98__screen-icon__container a .win98__screen-icon__container__list-icons__icon img {
+  width: 100%;
+  max-width: 60px;
+  margin: auto;
+}
+
+.win98__screen-icon__container a .win98__screen-icon__container__list-icons__icon span {
+  margin: 0.3rem 0 0 0;
+}
+
+footer {
+  padding: 2rem 1rem;
+  background-color: #000080;
+  color: #fff;
+}
+
+footer .btns {
+  display: flex;
+}
+
+@media screen and (max-width: 400px) {
+  footer .btns {
+    display: block;
+  }
+}
+
+footer .btns a {
+  width: fit-content;
+  color: #fff;
+}
+
+@media screen and (max-width: 400px) {
+  footer .btns a button {
+    width: 100%;
+  }
+}
+
+footer a:link,
+footer a:visited,
+footer a:active,
+footer a:focus {
+  background-color: #c0c0c0;
+}
+
+.contact .inner {
+  display: flex;
+  gap: 3rem;
+}
+
+.contact .inner .container--image {
+  width: 100%;
+  max-width: 100px;
+  position: relative;
+  transform: rotate(30deg);
+  overflow: visible;
+}
+
+.contact .inner .container--image:hover {
+  transform: rotate(10deg);
+}
+
+.contact .inner .container--image:hover::after {
+  opacity: 1;
+  z-index: 3;
+}
+
+.contact .inner .container--image::after {
+  content: "ring ring ring 😺";
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #e1be26;
+  padding: 6px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.contact .inner .container--content {
+  margin: auto 0;
+}
+
+.perguntas-frequentes__header {
+  display: flex;
+  margin: 0 0 1rem 0;
+  gap: 1rem;
+  align-items: center;
+}
+
+.perguntas-frequentes__imagem {
+  width: 100%;
+  max-width: 100px;
+}
+
+.perguntas-frequentes__imagem :hover {
+  animation: gelatine 0.5s infinite;
+}
+
+.duvidas-lista .duvidas-lista__item {
+  margin: 2rem 0 0 0;
+}
+
+.duvidas-lista .duvidas-lista__item h3 {
+  margin: 0;
+}
+
+.popup {
+  position: relative;
+  background: #c0c0c0;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+}
+
+.popup--mini {
+  width: 100%;
+  max-width: 300px;
+}
+
+.popup__header {
+  width: 100%;
+  padding: 0.2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1B0A26;
+  color: #D8A7D9;
+}
+
+.popup__header__title {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.popup__body {
+  padding: 2rem;
+}
+
+.taskbar {
+  background: #c0c0c0;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 6px;
+  height: 32px;
+}
+
+.taskbar .start {
+  background: #c0c0c0;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+  padding: 2px 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.taskbar .start:active {
+  border-top: 2px solid #404040;
+  border-left: 2px solid #404040;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.taskbar .tray {
+  padding: 0 8px;
+  border-top: 2px solid #404040;
+  border-left: 2px solid #404040;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  background: #c0c0c0;
+}
+
+@keyframes gelatine {
+
+  from,
+  to {
+    transform: scale(1, 1);
+  }
+
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
