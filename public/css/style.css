@@ -27,13 +27,15 @@ body {
 header .header__content {
   width: var(--max-width);
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
+  display: block;
 }
 
 header .header__content > * {
   margin: auto;
+}
+
+header .header__content> :nth-child(3) {
+  display: none;
 }
 
 section {
@@ -405,4 +407,14 @@ footer .taskbar__menu__content .credits {
 }
 
 /* Responsivo */
-@media screen and (min-width: 900px) {}
+@media screen and (min-width: 900px) {
+  header .header__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+
+  header .header__content > :nth-child(3) {
+    display: block;
+  }
+}
