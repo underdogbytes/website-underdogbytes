@@ -5,7 +5,7 @@
     Sou a pessoa da foto aqui:
   </p>
 
-  <img src="{{ asset('imagens/eu.webp') }}"
+  <img src="{{ asset('images/eu.webp') }}"
     alt="Pessoa de cabelo médio olhando para baixo
       segurando um teclado mecânico com uma mão
       e usando um negócio de remover tecla em outra mão"

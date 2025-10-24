@@ -6,7 +6,7 @@
 
         <ul class="galeria">
             <x-projetos.item
-                imgSrc="{{ asset('imagens/olachico.png') }}"
+                imgSrc="{{ asset('images/olachico.png') }}"
                 nome="Olá Chico"
                 dataTrabalho="2024"
                 tipo="Website Portfólio"
@@ -20,7 +20,7 @@
             />
 
             <x-projetos.item
-                imgSrc="{{ asset('imagens/sorla-db.png') }}"
+                imgSrc="{{ asset('images/sorla-db.png') }}"
                 nome="Sorla DB"
                 dataTrabalho="2024"
                 tipo="Landing Page"
@@ -30,7 +30,7 @@
             />
 
             <x-projetos.item
-                imgSrc="{{ asset('imagens/dislexia.png') }}"
+                imgSrc="{{ asset('images/dislexia.png') }}"
                 nome="EduEdu Alfabetização"
                 dataTrabalho="2024"
                 tipo="Aplicativo"
@@ -42,7 +42,7 @@
             />
 
             <x-projetos.item
-                imgSrc="{{ asset('imagens/cej.png') }}"
+                imgSrc="{{ asset('images/cej.png') }}"
                 dataTrabalho="2024"
                 nome="Colégio Evangélico Jaraguá"
                 tipo="Portal de gerenciamento escolar"
@@ -53,7 +53,7 @@
             />
 
             <x-projetos.item
-                imgSrc="{{ asset('imagens/colecoes-fauna-do-brasil.png') }}"
+                imgSrc="{{ asset('images/colecoes-fauna-do-brasil.png') }}"
                 nome="Coleções Fauna do Brasil"
                 dataTrabalho="2022"
                 tipo="E-commerce OpenCart"
@@ -66,7 +66,7 @@
                 />
 
                 <x-projetos.item
-                    imgSrc="{{ asset('imagens/mais-futuro.png') }}"
+                    imgSrc="{{ asset('images/mais-futuro.png') }}"
                     nome="Aplicativo Mais Futuro"
                     dataTrabalho="2022-2024"
                     tipo="Aplicativo PWA em VueJS"
@@ -77,7 +77,7 @@
                 />
 
             <x-projetos.item
-                imgSrc="{{ asset('imagens/tempestade-criativa.png') }}"
+                imgSrc="{{ asset('images/tempestade-criativa.png') }}"
                 dataTrabalho="2022"
                 nome="Tempestade Criativa"
                 tipo="Landing Page em Laravel"
@@ -86,7 +86,7 @@
             />
 
             <x-projetos.item
-                imgSrc="{{ asset('imagens/escola-renovacao.png') }}"
+                imgSrc="{{ asset('images/escola-renovacao.png') }}"
                 dataTrabalho="2022"
                 nome="Escola Renovação"
                 tipo="Website em Laravel"
@@ -96,7 +96,7 @@
             />
 
             <x-projetos.item
-                imgSrc="{{ asset('imagens/show-gospel.png') }}"
+                imgSrc="{{ asset('images/show-gospel.png') }}"
                 dataTrabalho="2019"
                 nome="Show Gospel"
                 tipo="Blog em Laravel"
