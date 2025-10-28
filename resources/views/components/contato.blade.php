@@ -1,4 +1,4 @@
-<section id="contato" class="contact">
+<section id="contato" class="contact padding-mobile">
   <div class="inner">
     <div class="container--image">
       <img src="{{ asset('images/objects/nokia.png') }}" alt="Imagem de um Nokia 3310 com fundo transparente" />

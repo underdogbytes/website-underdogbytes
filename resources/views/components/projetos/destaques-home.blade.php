@@ -1,5 +1,5 @@
 <section id="projetos">
-    <div class="inner">
+    <div class="inner padding-mobile">
         <x-utils.titulo
             titulo="Projetos selecionados"
         />

@@ -1,5 +1,5 @@
 <section id="perguntas-frequentes">
-  <div class="inner">
+  <div class="inner padding-mobile">
     <div class="perguntas-frequentes__header">
       <x-utils.titulo titulo="Perguntas frequentes" />
       <div class="perguntas-frequentes__imagem">

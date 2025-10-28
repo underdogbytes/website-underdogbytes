@@ -1,5 +1,6 @@
 :root {
   --max-width: 80%;
+  --padding-mobile: 1rem;
 
   --win98-grey: #c0c0c0;
 }
@@ -38,6 +39,10 @@ header .header__content> :nth-child(3) {
   display: none;
 }
 
+main {
+  padding: 0 0 3rem 0;
+}
+
 section {
   padding: 2rem 0;
 }
@@ -68,6 +73,10 @@ small {
 .inner {
   max-width: 1200px;
   margin: auto;
+}
+
+.padding-mobile {
+  padding: var(--padding-mobile);
 }
 
 .secao-titulo {
@@ -262,10 +271,6 @@ small {
   animation: gelatine 0.5s infinite;
 }
 
-.duvidas-lista .duvidas-lista__item {
-  margin: 2rem 0 0 0;
-}
-
 .duvidas-lista .duvidas-lista__item h3 {
   margin: 0;
 }
@@ -415,6 +420,10 @@ footer .taskbar__menu__content .credits {
 }
 
 @media screen and (min-width: 900px) {
+  .padding-mobile {
+    padding: inherit;
+  }
+
   header .header__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
