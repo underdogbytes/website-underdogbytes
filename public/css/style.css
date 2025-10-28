@@ -70,12 +70,6 @@ small {
   margin: auto;
 }
 
-@media screen and (max-width: 1200px) {
-  .inner {
-    max-width: -webkit-fill-available;
-  }
-}
-
 .secao-titulo {
   width: fit-content;
   height: fit-content;
@@ -95,21 +89,14 @@ small {
   margin: 0 0 1rem 0;
 }
 
-@media screen and (max-width: 900px) {
-  .galeria .item {
-    grid-template-columns: 1fr;
-  }
+.galeria li:nth-child(odd) {
+  background: lightgray;
 }
 
 .galeria .item img {
   width: 100%;
   max-width: 200px;
-}
-
-@media screen and (max-width: 900px) {
-  .galeria .item img {
-    max-width: 100%;
-  }
+  margin: auto;
 }
 
 .galeria .item .detalhes {
@@ -252,6 +239,11 @@ small {
 
 .contact .inner .container--content {
   margin: auto 0;
+}
+
+/* Projetos */
+.projetos__buttons {
+  margin-top: 2rem;
 }
 
 .perguntas-frequentes__header {
@@ -407,6 +399,16 @@ footer .taskbar__menu__content .credits {
 }
 
 /* Responsivo */
+@media screen and (max-width: 900px) {
+  .galeria .item {
+    grid-template-columns: 1fr;
+  }
+
+  .galeria .item img {
+    max-width: 100%;
+  }
+}
+
 @media screen and (min-width: 900px) {
   header .header__content {
     display: grid;
@@ -416,5 +418,11 @@ footer .taskbar__menu__content .credits {
 
   header .header__content > :nth-child(3) {
     display: block;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .inner {
+    max-width: -webkit-fill-available;
   }
 }
