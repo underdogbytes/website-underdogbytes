@@ -3,7 +3,7 @@
 
 @section('content')
   <section>
-    <div class="inner">
+    <div class="inner padding-mobile">
       <x-utils.titulo titulo="Eu disse que era algo aleatório" />
       <img
         src="{{ asset($imagem['src']) }}"

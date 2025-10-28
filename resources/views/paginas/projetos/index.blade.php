@@ -3,7 +3,7 @@
 
 @section('content')
   <section>
-    <div class="inner">
+    <div class="inner padding-mobile">
       <h1>Projetos</h1>
     </div>
   </section>

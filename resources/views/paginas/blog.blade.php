@@ -3,7 +3,7 @@
 
 @section('content')
   <section>
-    <div class="inner">
+    <div class="inner padding-mobile">
       <x-utils.titulo titulo="Blog da Bea" />
       <div>
         <p>
