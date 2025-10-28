@@ -4,7 +4,7 @@
 @section('content')
     <div class="inner">
         <x-win98.screen-shorcuts />
-        <x-utils.cards.y2k
+        {{-- <x-utils.cards.y2k
             tipo="h3"
             titulo="Você recebeu uma mensagem"
             texto="<p>
@@ -23,7 +23,7 @@
                 <br><br>
                 Até breve! ♥
             </p>"
-        />
+        /> --}}
    </div>
     <x-projetos.galeria />
     <x-duvidas-frequentes />
