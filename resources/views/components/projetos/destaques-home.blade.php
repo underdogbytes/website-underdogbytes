@@ -1,5 +1,5 @@
 <section id="projetos">
-    <div class="inner padding-mobile">
+    <div class="inner">
         <x-utils.titulo
             titulo="Projetos selecionados"
         />
@@ -63,5 +63,11 @@
                     criando uma página eficiente com navegação fluída."
             />
         </ul>
+
+        <div class="projetos__buttons">
+            <a href="{{ url('projetos') }}">
+                <button>Ver mais projetos</button>
+            </a>
+        </div>
     </div>
 </section>

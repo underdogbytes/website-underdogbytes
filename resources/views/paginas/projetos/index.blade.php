@@ -2,9 +2,7 @@
 @section('title', 'Projetos')
 
 @section('content')
-  <section>
-    <div class="inner padding-mobile">
-      <h1>Projetos</h1>
-    </div>
+  <section class="padding-mobile">
+    <x-projetos.todos />
   </section>
 @endsection
