@@ -356,6 +356,11 @@ footer .taskbar .tray {
   background: var(--win98-grey);
 }
 
+footer .taskbar .tray a {
+  text-decoration: none;
+  color: inherit;
+}
+
 footer .taskbar__menu {
   display: none;
   position: fixed;

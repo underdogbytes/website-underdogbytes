@@ -23,6 +23,14 @@
         >
             Início
         </button>
-        <div class="tray">23:59</div>
+
+        <div class="tray">
+            <a
+                href="https://www.youtube.com/watch?v=9qbRHY1l0vc"
+                target="_blank"
+            >
+                23:58
+            </a>
+        </div>
     </div>
 </footer>
