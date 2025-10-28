@@ -255,6 +255,10 @@ small {
   margin-top: 2rem;
 }
 
+.projetos__buttons button {
+  width: 100%;
+}
+
 .perguntas-frequentes__header {
   display: flex;
   margin: 0 0 1rem 0;
@@ -424,6 +428,7 @@ footer .taskbar__menu__content .credits {
     padding: inherit;
   }
 
+  /* Header - Responsivo*/
   header .header__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -434,6 +439,12 @@ footer .taskbar__menu__content .credits {
     display: block;
   }
 
+  /* Projetos - Responsivo */
+  .projetos__buttons button {
+    width: fit-content;
+  }
+
+  /* Contato - Responsivo */
   .contact .inner .container--image::after {
     content: "ring ring ring 😺";
   }
