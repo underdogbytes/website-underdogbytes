@@ -231,7 +231,7 @@ small {
 }
 
 .contact .inner .container--image::after {
-  content: "ring ring ring 😺";
+  content: "rrrrring 😺";
   position: absolute;
   bottom: 20%;
   left: 50%;
@@ -432,6 +432,10 @@ footer .taskbar__menu__content .credits {
 
   header .header__content > :nth-child(3) {
     display: block;
+  }
+
+  .contact .inner .container--image::after {
+    content: "ring ring ring 😺";
   }
 }
 
