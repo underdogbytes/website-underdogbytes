@@ -1,7 +1,7 @@
 <section id="projetos">
     <div class="inner">
         <x-utils.titulo
-            titulo="Projetos para Clientes"
+            titulo="Projetos"
         />
 
         <ul class="galeria">
