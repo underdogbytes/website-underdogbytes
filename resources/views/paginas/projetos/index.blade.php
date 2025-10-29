@@ -2,7 +2,11 @@
 @section('title', 'Projetos')
 
 @section('content')
-  <section class="padding-mobile">
-    <x-projetos.todos />
+  <section class="inner padding-mobile">
+    <x-projetos.todos :projetos="$projetos" />
+
+    <div class="paginacao">
+      {{ $projetos->links() }}
+    </div>
   </section>
 @endsection
