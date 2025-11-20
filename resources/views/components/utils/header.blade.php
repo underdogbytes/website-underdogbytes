@@ -8,7 +8,7 @@
     <div>
       <h1>Underdog Bytes</h1>
       <p>
-        Bem-vindo ao meu website! :D
+        Em manutenção, volte em breve!
       </p>
     </div>
     <img

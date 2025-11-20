@@ -22,12 +22,10 @@
   </head>
 
   <body>
-    <x-utils.navbar />
     <x-utils.header />
     <main>
       @yield('content')
     </main>
-    <x-utils.footer />
     <script src="{{ asset('js/index.js') }}"></script>
   </body>
 </html>
