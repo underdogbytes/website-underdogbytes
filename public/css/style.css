@@ -352,6 +352,7 @@ footer {
 
 /*Página 404 */
 .error-page {
+  height: 100vh;
   text-align: center;
   padding: 80px 20px;
 }
