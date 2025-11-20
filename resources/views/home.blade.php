@@ -3,7 +3,7 @@
 
 @section('content')
 <x-hero
-  title="Sites profissionais para pequenos negócios."
+  title="Sites profissionais e sistemas completos para negócios."
   subtitle="Criamos experiências digitais modernas e acessíveis para fazer sua empresa crescer."
 />
 
