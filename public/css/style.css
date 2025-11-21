@@ -9,6 +9,7 @@
 
   /* Hero: default */
   --hero-default-bg: linear-gradient(180deg, #0f1724 0%, #071029 100%);
+  --hero-default-img: url('../images/banner/home.jpg'); /* https: //www.freepik.com/free-photo/teleworking-programmer-designing-developing-software-using-tablet_325934497.htm#fromView=search&page=1&position=2&uuid=327c54a3-30c3-4719-b2df-889f139b0fed&query=development */
   --hero-default-color: #ffffff;
   --hero-default-padding-vertical: 72px;
   --hero-default-padding-horizontal: 20px;
@@ -77,7 +78,11 @@ nav .content {
   box-sizing: border-box;
   width: 100%;
   color: var(--hero-default-color);
-  background: var(--hero-default-bg);
+  background-color: var(--hero-default-bg);
+  background-image: var(--hero-default-img);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: var(--hero-default-padding-vertical) var(--hero-default-padding-horizontal);
   position: relative;
   overflow: hidden;
