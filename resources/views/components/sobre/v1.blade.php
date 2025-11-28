@@ -4,7 +4,7 @@
   </div>
   <div class="bio">
     <h3>Olá, somos a Underdog Bytes</h3>
-    <p>Desenvolvemos soluções digitais baseadas em performance, acessibilidade e usabilidade.</p>
+    <p>Desenvolvo soluções digitais baseadas em performance, acessibilidade e usabilidade.</p>
 
     <div class="skills">
       <span class="chip">HTML & CSS / Bootstrap</span>

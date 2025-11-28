@@ -1,7 +1,7 @@
 <section>
   <div class="section-title container-max-width">
     <h2>Depoimentos</h2>
-    <div class="section-sub">O que nossos clientes falam</div>
+    <div class="section-sub">O que meus clientes falam</div>
   </div>
 
   <div class="wrap">

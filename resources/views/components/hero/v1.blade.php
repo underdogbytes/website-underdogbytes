@@ -6,7 +6,7 @@
       e sistemas completos para negócios.
     </h1>
     <p>
-      Criamos experiências digitais modernas e acessíveis para fazer sua empresa crescer
+      Crio experiências digitais modernas e acessíveis para fazer sua empresa crescer
     </p>
     <div class="hero-ctas">
       <a class="btn-primary btn-yellow" href="#projetos">Ver portfólio</a>

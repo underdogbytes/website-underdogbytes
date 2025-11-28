@@ -18,7 +18,7 @@
     </div>
 
     <div class="footer-col">
-      <h3>Nossos serviços</h3>
+      <h3>Meus serviços</h3>
       <ul>
         <li><a href="#servicos">Websites</a></li>
         <li><a href="#servicos">Aplicações</a></li>
