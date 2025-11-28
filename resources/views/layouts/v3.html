@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bea — Front-end & UI</title>
+  <meta name="description" content="Bea — Front-end e UI com estética retrô e foco em performance" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Favicons / meta for social can be added in Blade layout -->
+
+  <style>
+    /* ===== Variables ===== */
+    :root{
+      --bg:#0d0d10;
+      --card:#111216;
+      --muted:#bfbfbf;
+      --accent-1:#3e5cff; /* azul */
+      --accent-2:#ff3ea5; /* magenta */
+      --accent-3:#ffe66d; /* amarelo */
+      --glass: rgba(255,255,255,0.04);
+      --radius:12px;
+      --max-width:1100px;
+      --container-padding:24px;
+      --mono: 'Space Grotesk', system-ui, -apple-system, "Segoe UI", Roboto;
+      --ui: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto;
+    }
+
+    /* ===== Reset / Base ===== */
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:var(--ui);
+      background:linear-gradient(180deg, #070708 0%, var(--bg) 100%);
+      color:#e9e9ee;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.5;
+    }
+
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;height:auto;display:block}
+
+    .wrap{max-width:var(--max-width);margin:0 auto;padding:48px var(--container-padding)}
+
+    /* ===== Header ===== */
+    header{
+      position:sticky;top:0;z-index:40;background:linear-gradient(180deg, rgba(13,13,16,0.9) 60%, rgba(13,13,16,0.6));backdrop-filter:blur(6px);border-bottom:1px solid rgba(255,255,255,0.03)
+    }
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:12px var(--container-padding)}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:44px;height:44px;border-radius:8px;background:linear-gradient(135deg,var(--accent-1),var(--accent-2));display:inline-grid;place-items:center;font-weight:700;color:#071;}
+    .nav-links{display:flex;gap:18px;align-items:center}
+    .cta{padding:10px 14px;border-radius:10px;background:var(--accent-3);color:#0a0a0a;font-weight:600}
+
+    /* ===== Hero ===== */
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:32px;align-items:center;padding:64px 0}
+    .hero-left h1{font-size:clamp(28px,4vw,44px);margin:0 0 12px;font-family:var(--mono);letter-spacing:-0.6px}
+    .hero-left p{color:var(--muted);margin:0 0 20px}
+    .hero-ctas{display:flex;gap:12px}
+    .btn-primary{background:linear-gradient(90deg,var(--accent-1),var(--accent-2));padding:12px 18px;border-radius:10px;font-weight:700;color:white}
+    .btn-ghost{padding:12px 18px;border-radius:10px;border:1px solid rgba(255,255,255,0.06)}
+
+    .hero-right{position:relative;border-radius:16px;overflow:hidden;box-shadow:0 10px 40px rgba(0,0,0,0.6);background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01))}
+    .hero-right .portrait{width:100%;height:100%;min-height:320px;object-fit:cover;filter:contrast(1.05) saturate(1.05)}
+    .hero-accent{position:absolute;left:8px;bottom:12px;background:var(--glass);padding:10px;border-radius:10px;font-size:13px;color:var(--muted);backdrop-filter:blur(4px);}
+
+    /* ===== Sections ===== */
+    section{padding:64px 0}
+    .section-title{display:flex;align-items:center;gap:12px;margin-bottom:22px}
+    .section-title h2{margin:0;font-size:20px;font-weight:700}
+    .section-sub{color:var(--muted);font-size:14px}
+
+    /* About */
+    .about{display:grid;grid-template-columns:280px 1fr;gap:28px;align-items:center}
+    .about .photo{border-radius:14px;overflow:hidden;border:1px solid rgba(255,255,255,0.03)}
+    .about .bio{color:var(--muted)}
+    .skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+    .chip{background:rgba(255,255,255,0.03);padding:8px 10px;border-radius:999px;font-size:13px}
+
+    /* Projects */
+    .projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;padding:14px;border:1px solid rgba(255,255,255,0.03)}
+    .card .thumb{height:160px;border-radius:8px;overflow:hidden;margin-bottom:12px}
+    .card h3{margin:0 0 6px}
+    .card p{margin:0;color:var(--muted);font-size:14px}
+
+    /* Services */
+    .services{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .service{background:rgba(255,255,255,0.02);padding:18px;border-radius:12px;text-align:center}
+    .service h4{margin:10px 0 6px}
+    .service p{color:var(--muted);font-size:13px}
+
+    /* Testimonials */
+    .testi{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .testi .t{padding:18px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));border:1px solid rgba(255,255,255,0.03);color:var(--muted)}
+
+    /* Contact */
+    .contact{display:flex;gap:24px;align-items:center;justify-content:space-between}
+    .contact .mail{font-weight:700;font-size:18px}
+    .contact .note{color:var(--muted)}
+
+    footer{padding:36px 0;border-top:1px solid rgba(255,255,255,0.02);color:var(--muted)}
+
+    /* ===== Small screens ===== */
+    @media (max-width:980px){
+      .hero{grid-template-columns:1fr;gap:20px;padding:36px 0}
+      .about{grid-template-columns:1fr;}
+      .projects-grid{grid-template-columns:repeat(2,1fr)}
+      .services{grid-template-columns:repeat(2,1fr)}
+      .testi{grid-template-columns:1fr}
+    }
+    @media (max-width:600px){
+      .wrap{padding:28px 18px}
+      .projects-grid{grid-template-columns:1fr}
+      .nav-links{display:none}
+      .logo{width:40px;height:40px}
+    }
+
+    /* Small tasteful retro pixel border on headings */
+    .pixel-border{box-shadow:inset 0 0 0 1px rgba(255,255,255,0.02);}
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav wrap" aria-label="Main navigation">
+      <div class="brand">
+        <div class="logo" aria-hidden>BE</div>
+        <div>
+          <div style="font-weight:700">Bea</div>
+          <div style="font-size:12px;color:var(--muted)">Front-end & UI</div>
+        </div>
+      </div>
+
+      <div class="nav-links" role="navigation" aria-label="links">
+        <a href="#projetos">Projetos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a class="nav-links--cta" href="#contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-left">
+        <h1 id="hero-title">Bea — Front-end & UI<br><span style="color:var(--accent-2);font-weight:600">Websites com alma retrô</span> e eficiência moderna</h1>
+        <p>Transformo ideias em interfaces rápidas, acessíveis e cheias de personalidade. A estética 90s encontra boas práticas de performance.</p>
+        <div class="hero-ctas">
+          <a class="btn-primary" href="#projetos">Ver portfólio</a>
+          <a class="btn-ghost" href="#contato">Falar comigo</a>
+        </div>
+      </div>
+
+      <div class="hero-right" role="img" aria-label="Retrato com luz neon">
+        <!-- Troque a src para a sua foto ou screenshot do projeto -->
+        <img class="portrait" src="/images/hero-portrait.jpg" alt="Retrato Bea com iluminação neon">
+        <div class="hero-accent">Landing • UI • Front‑end</div>
+      </div>
+    </section>
+
+    <section id="sobre" class="wrap about">
+      <div class="photo pixel-border">
+        <img src="/images/bea-photo.jpg" alt="Foto Bea" style="width:100%;height:100%;object-fit:cover;min-height:260px">
+      </div>
+      <div class="bio">
+        <h3>Olá, eu sou a Bea</h3>
+        <p>Sou desenvolvedora front-end e designer UI. Gosto de misturar estética retrô com interfaces modernas, pensando sempre em performance, acessibilidade e usabilidade.</p>
+
+        <div class="skills">
+          <span class="chip">HTML & CSS</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">Vue / React</span>
+          <span class="chip">Design System</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="wrap">
+      <div class="section-title"><h2>Projetos em destaque</h2><div class="section-sub">Selecione alguns trabalhos recentes</div></div>
+      <div class="projects-grid">
+        <!-- Card 1 -->
+        <article class="card" aria-labelledby="p1">
+          <div class="thumb"><img src="/images/project-1.jpg" alt="Projeto 1"></div>
+          <h3 id="p1">Landing Retro</h3>
+          <p>Landing page responsiva com micro-interações e integração com formulário.</p>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card" aria-labelledby="p2">
+          <div class="thumb"><img src="/images/project-2.jpg" alt="Projeto 2"></div>
+          <h3 id="p2">Plataforma UI</h3>
+          <p>Componentização, design system e otimização de performance.</p>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card" aria-labelledby="p3">
+          <div class="thumb"><img src="/images/project-3.jpg" alt="Projeto 3"></div>
+          <h3 id="p3">Portfólio interativo</h3>
+          <p>Apresentação de trabalhos com navegação suave e acessível.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="servicos" class="wrap">
+      <div class="section-title"><h2>Serviços</h2><div class="section-sub">O que eu faço</div></div>
+      <div class="services">
+        <div class="service">
+          <div style="font-size:22px;font-weight:700">Landing Rápida</div>
+          <p>Design + implementação com foco em conversão.</p>
+        </div>
+        <div class="service">
+          <div style="font-size:22px;font-weight:700">UI / Design</div>
+          <p>Interfaces com personalidade e consistência.</p>
+        </div>
+        <div class="service">
+          <div style="font-size:22px;font-weight:700">Front-end</div>
+          <p>Code clean, performance e componentes reutilizáveis.</p>
+        </div>
+        <div class="service">
+          <div style="font-size:22px;font-weight:700">Otimização</div>
+          <p>Melhorias de performance e acessibilidade.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="section-title"><h2>Depoimentos</h2><div class="section-sub">O que clientes falam</div></div>
+      <div class="testi">
+        <div class="t">“Trabalhar com a Bea foi eficiente e criativo. Recomendo!” — Cliente A</div>
+        <div class="t">“Entrega no prazo e design com personalidade.” — Cliente B</div>
+        <div class="t">“Código organizado e comunicação clara.” — Cliente C</div>
+      </div>
+    </section>
+
+    <section id="contato" class="wrap contact">
+      <div>
+        <h3>Quer criar algo comigo?</h3>
+        <div class="mail">beatriz@email.com</div>
+        <div class="note">(Envie um e-mail com: objetivo, prazo e orçamento estimado)</div>
+      </div>
+      <div style="max-width:340px;">
+        <div style="background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:12px;text-align:center">
+          <div style="font-weight:700;margin-bottom:6px">Disponibilidade</div>
+          <div style="color:var(--muted)">Vagas limitadas para projetos rápidos</div>
+          <a href="mailto:beatriz@email.com" class="btn-primary" style="display:inline-block;margin-top:12px">Enviar e-mail</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;gap:12px">
+      <div style="display:flex;gap:12px;align-items:center">
+        <div class="logo" style="width:38px;height:38px;border-radius:10px">BE</div>
+        <div>
+          <div style="font-weight:700">Bea</div>
+          <div style="font-size:12px;color:var(--muted)">Front-end & UI</div>
+        </div>
+      </div>
+
+      <div style="color:var(--muted);font-size:13px">© "Bea" — <span id="year"></span></div>
+    </div>
+  </footer>
+
+  <script>
+    // Small helpers: colocar ano atual
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Exemplo: como injetar imagens dinamicamente no Blade
+    // Em Laravel blade, troque as src por: {{ asset('images/hero-portrait.jpg') }}
+  </script>
+</body>
+</html>
