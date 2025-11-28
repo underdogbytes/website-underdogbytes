@@ -16,7 +16,7 @@
 
   <div class="hero-right" role="img" aria-label="Logo Underdog Bytes">
     <!-- Troque a src para a sua foto ou screenshot do projeto -->
-    <img class="portrait" src="/images/hero-portrait.jpg" alt="Logo Underdog Bytes">
+    <img class="portrait" src="{{asset('/images/logo/cat.png')}}" alt="Logo Underdog Bytes">
     <div class="hero-accent">• Sistemas de Gerenciamento • Landing Pages • UI/UX •</div>
   </div>
 </section>
