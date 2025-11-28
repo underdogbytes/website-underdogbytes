@@ -3,7 +3,7 @@
     <x-logo.cat />
   </div>
   <div class="bio">
-    <h3>Olá, somos a Underdog Bytes</h3>
+    <h3>Olá, sou a Bea, fundadora da Underdog Bytes</h3>
     <p>Desenvolvo soluções digitais baseadas em performance, acessibilidade e usabilidade.</p>
 
     <div class="skills">
