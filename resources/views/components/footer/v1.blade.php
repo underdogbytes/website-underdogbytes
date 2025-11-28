@@ -38,7 +38,7 @@
     <div class="footer-col">
       <h3>Entre em contato</h3>
       <ul>
-        <li><a href="mailto:underdogbytes@email.com">underdogbytes@email.com</a></li>
+        <li><a href="mailto:underdogbytes@gmail.com">underdogbytes@gmail.com</a></li>
       </ul>
     </div>
 

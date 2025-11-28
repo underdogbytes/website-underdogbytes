@@ -4,7 +4,7 @@
     <p class="note">Envie um e-mail para solicitar um orçamento:</p>
 
     <div class="cta">
-      <a href="mailto:underdogbytes@email.com" class="btn-primary btn-yellow">
+      <a href="mailto:underdogbytes@gmail.com" class="btn-primary btn-yellow">
         Enviar e-mail
       </a>
       <small>Vagas limitadas para projetos rápidos</small>
