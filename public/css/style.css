@@ -216,7 +216,11 @@ section {
   align-items: center
 }
 
-.about .photo {
+.about .photo img {
+  width: 180px;
+  height: 180px;
+  margin: auto;
+  display: flex;
   border-radius: 14px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.03)
