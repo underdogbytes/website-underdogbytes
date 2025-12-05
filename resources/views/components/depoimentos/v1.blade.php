@@ -9,7 +9,7 @@
       <x-depoimentos.minimalist.item
         imgSrc="images/projects/olachico/thumb.png"
         imgAlt="Imagem do Chico, artista curitibano com sua logo na parte inferior"
-        phrase="Minha dev favorita de cwb"
+        phrase=""
         clientName="Chico Luís, artista"
         service="Website Portfólio"
       />

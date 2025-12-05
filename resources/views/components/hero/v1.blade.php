@@ -10,7 +10,7 @@
     </p>
     <div class="hero-ctas">
       <a class="btn-primary btn-yellow" href="#projetos">Ver portfólio</a>
-      <a class="btn-ghost" href="#contato">Falar comigo</a>
+      <a class="btn-ghost" href="#contato">Entre em contato</a>
     </div>
   </div>
 </section>
