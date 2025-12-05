@@ -419,6 +419,10 @@ section {
     padding: 36px 0
   }
 
+  .hero.v1 .hero-left {
+    grid-template-columns: 1fr;
+  }
+
   .about {
     grid-template-columns: 1fr;
   }
