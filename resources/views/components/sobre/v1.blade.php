@@ -1,17 +1,20 @@
 <section id="sobre" class="wrap about">
   <div class="photo pixel-border">
-    <x-logo.cat />
+    <img src="{{asset('images/team/beatriz-lima.png')}}" alt="Foto Beatriz Lima" />
   </div>
   <div class="bio">
-    <h3>Olá, sou a Bea, fundadora da Underdog Bytes</h3>
-    <p>Desenvolvo soluções digitais baseadas em performance, acessibilidade e usabilidade.</p>
-
-    <div class="skills">
-      <span class="chip">HTML & CSS / Bootstrap</span>
-      <span class="chip">JavaScript / Vue</span>
-      <span class="chip">PHP / Laravel</span>
-      <span class="chip">WordPress / OpenCart</span>
-      <span class="chip">Design System</span>
+    <h3>Olá, sou Beatriz Lima, fundadora da Underdog Bytes</h3>
+    <p>
+      Após trabalhar por mais de 10 anos no mercado de desenvolvimento de websites e sistemas, fundei a Underdog Bytes em 2024.
+      Desenvolvemos soluções digitais baseadas em performance, acessibilidade e usabilidade.
+      Temos tanto sistemas prontos para uso quanto opções personalizadas para seu negócio.
+      Entre em contato para saber mais:
+    </p>
+    <div class="cta">
+      <a href="mailto:underdogbytes@gmail.com" class="btn-primary btn-yellow">
+        Enviar e-mail
+      </a>
+      <small>* Vagas limitadas para projetos curtos</small>
     </div>
   </div>
 </section>
