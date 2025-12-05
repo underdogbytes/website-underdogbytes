@@ -423,6 +423,10 @@ section {
     grid-template-columns: 1fr;
   }
 
+  .hero.v1 .hero-left {
+    margin: 2rem;
+  }
+
   .about {
     grid-template-columns: 1fr;
   }
