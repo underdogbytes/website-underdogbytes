@@ -9,4 +9,8 @@ Route::middleware([ContentSecurityPolicy::class])->group(function () {
     Route::get('/', function () {
         return view('home');
     });
+
+    Route::get('/links', function () {
+        return view('paginas.links');
+    });
 });
