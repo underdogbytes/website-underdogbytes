@@ -16,7 +16,7 @@
       <x-projetos.minimalist.card
         id="p2"
         name="Coleções Fauna do Brasil"
-        description="E-commerce OpenCart para artesão de pelúcias em Curitiba"
+        description="E-commerce OpenCart para artesã de pelúcias em Curitiba"
         imgSrc="/images/projects/faunabr/thumb.png"
         imgAlt="Pelúcia de Raia Manta da Coleção Fauna do Brasil"
       />
