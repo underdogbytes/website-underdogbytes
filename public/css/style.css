@@ -1,21 +1,29 @@
 /* ===== Variables ===== */
 :root {
+  /* Estrutura */
   --intern-padding: 1rem;
-  --bg: #0d0d10;
-  --card: #111216;
-  --muted: #bfbfbf;
-  --accent-1: #3e5cff;
-  /* azul */
-  --accent-2: #ff3ea5;
-  /* yellow */
-  --yellow: #dab532;
-  /* amarelo */
-  --glass: rgba(255, 255, 255, 0.04);
   --radius: 12px;
   --max-width: 1250px;
   --container-padding: 24px;
+
+  /* Tipografia */
   --mono: 'Space Grotesk', system-ui, -apple-system, "Segoe UI", Roboto;
   --ui: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto;
+
+  /* Cores */
+  --azul: #3e5cff;
+  --rosa: #ff3ea5;
+  --amarelo: #dab532;
+  --verde-whats-claro: #25d366;
+  --verde-whats-escuro: #128c7e;
+  --bg: #0d0d10;
+
+  /* Efeitos */
+  --glass: rgba(255, 255, 255, 0.04);
+  --muted: #bfbfbf;
+
+  /* Cards */
+  --card: #111216;
 }
 
 /* ===== Reset / Base ===== */
@@ -30,8 +38,9 @@ body {
 
 body {
   margin: 0;
-  font-family: var(--ui);
   background: linear-gradient(180deg, #070708 0%, var(--bg) 100%);
+  
+  font-family: var(--ui);
   color: #e9e9ee;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -99,7 +108,7 @@ header {
 .nav-links--cta {
   padding: 10px 14px;
   border-radius: 10px;
-  background: var(--yellow);
+  background: var(--amarelo);
   color: #0a0a0a;
 }
 
@@ -123,16 +132,36 @@ header {
 }
 
 .btn-primary {
-  background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+  background: linear-gradient(90deg, var(--azul), var(--rosa));
+  background-size: 200% auto;
+
   padding: 12px 18px;
   border-radius: 8px;
   font-weight: 600;
   color: white;
   text-align: center;
+  
+  transition: background-position 0.5s ease;
+  background-position: left center;
+}
+
+.btn-primary:hover {
+  background-position: right center;
 }
 
 .btn-yellow {
-  background: var(--yellow);
+  background: var(--amarelo);
+}
+
+.btn-whats {
+  background: linear-gradient(90deg, var(--verde-whats-escuro), var(--verde-whats-claro));
+  background-size: 200% auto;
+  background-position: left center;
+  transition: background-position 0.5s ease;
+}
+
+.btn-whats:hover {
+  background-position: right center;
 }
 
 .btn-ghost {
@@ -179,7 +208,7 @@ header {
 }
 .hero.v1 {
   min-height: 90vh;
-  background-image: url('../images/banner/representation-user-experience-interface-design.png');
+  background-image: url('../images/banner/woman.jpg');
   background-position: center;
   background-size: cover;
 }

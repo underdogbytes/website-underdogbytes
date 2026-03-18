@@ -3,9 +3,7 @@
 
 @section('content')
 <x-hero.v1 />
-<x-sobre.v1 />
-<x-projetos.minimalist.v1 />
 <x-servicos.v1 />
-<x-depoimentos.v1 />
+<x-projetos.minimalist.v1 />
 <x-contato.v1 />
 @endsection
