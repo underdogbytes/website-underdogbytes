@@ -41,6 +41,7 @@
     </main>
     <x-footer.v1 />
     <script src="{{ asset('js/index.js') }}"></script>
+    @stack('scripts')
   </body>
 
 </html>

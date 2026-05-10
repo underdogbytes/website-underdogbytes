@@ -10,7 +10,7 @@ Route::middleware([ContentSecurityPolicy::class])->group(function () {
         return view('home');
     });
 
-    Route::get('/links', function () {
-        return view('paginas.links');
+    Route::get('/todos-os-certificados', function () {
+        return view('paginas.sobre.certificados');
     });
 });

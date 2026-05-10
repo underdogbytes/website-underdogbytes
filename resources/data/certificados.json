@@ -1,0 +1,110 @@
+[
+  {
+    "titulo": "Nano Tips for Managing Neurodivergent Teams",
+    "emissor": "LinkedIn Learning",
+    "categoria": "produtividade",
+    "slug": "gerenciando-equipes-neurodivergentes",
+    "feitoEm": "08/05/2026",
+    "imagem": "2026-nano-tips-for-managing-neurodivergent-teams.png",
+    "url": "https://www.linkedin.com/learning/certificates/18d322fdd14a54d706ec8f8f653941f0b3c92abee4f1f1bce5e1368b6e43f81a"
+  },
+  {
+    "titulo": "Learning the OWASP Top 10",
+    "emissor": "LinkedIn Learning",
+    "categoria": "segurança",
+    "slug": "owasp-top-10",
+    "feitoEm": "23/04/2026",
+    "imagem": "2026-learning-owasp-top-10.png",
+    "url": "https://www.linkedin.com/learning/certificates/d61c77f9fdef5cc5f53c9f025375f19135baf181a3733ab2c99f53fa349257cc"
+  },
+  {
+    "titulo": "Python",
+    "emissor": "Santander Open Academy",
+    "categoria": "linguagem",
+    "slug": "python",
+    "feitoEm": "11/04/2026",
+    "imagem": "2026-python.png",
+    "url": ""
+  },
+  {
+    "titulo": "Fundamentos da Gestão de Tempo",
+    "emissor": "LinkedIn Learning",
+    "categoria": "produtividade",
+    "slug": "gestao-tempo",
+    "feitoEm": "09/04/2026",
+    "imagem": "2026-fundamentos-gestao-tempo.png",
+    "url": "https://www.linkedin.com/learning/certificates/0a318737a87e2e465eb4fe3264041de441b21adadb6a8477afdb5e1feb4374dd"
+  },
+  {
+    "titulo": "Google Drive",
+    "emissor": "Tigabytes",
+    "categoria": "ferramentas",
+    "slug": "google-drive",
+    "feitoEm": "19/12/2024",
+    "imagem": "2024-google-drive.png",
+    "url": ""
+  },
+  {
+    "titulo": "Arquitetura de Redes",
+    "emissor": "Udemy",
+    "categoria": "redes",
+    "slug": "arquitetura-redes",
+    "feitoEm": "2022",
+    "imagem": "2022-arquitetura-redes.jpg",
+    "url": "#"
+  },
+  {
+    "titulo": "Introdução ao Sistema Linux",
+    "emissor": "Digital Innovation One",
+    "categoria": "linux",
+    "slug": "introducao-sistema-linux",
+    "feitoEm": "25/10/2021",
+    "imagem": "2021-linux-introducao-ao-sistema.png",
+    "url": ""
+  },
+  {
+    "titulo": "Introdução ao Git e Github",
+    "emissor": "Digital Innovation One",
+    "categoria": "versionamento",
+    "slug": "introducao-git-github",
+    "feitoEm": "24/10/2021",
+    "imagem": "2021-introdução-git-github.png",
+    "url": "#"
+  },
+  {
+    "titulo": "Aprenda o que são Estruturas de Dados e Algoritmos",
+    "emissor": "Digital Innovation One",
+    "categoria": "fundamentos de programação",
+    "slug": "aprenda-o-que-sao-estruturas-de-dados-e-algoritmos",
+    "feitoEm": "23/10/2021",
+    "imagem": "2021-aprenda-estrutura-dados-algoritmos.png",
+    "url": "#"
+  },
+  {
+    "titulo": "Lógica de Programação Essencial",
+    "emissor": "Digital Innovation One",
+    "categoria": "fundamentos de programação",
+    "slug": "logica-programacao-essencial",
+    "feitoEm": "22/10/2021",
+    "imagem": "2021-logica-programacao-essencial.png",
+    "url": ""
+  },
+  {
+    "titulo": "Cosmologia",
+    "emissor": "UFPR - Universidade Federal do Paraná",
+    "categoria": "ciência",
+    "slug": "cosmologia",
+    "feitoEm": "20, 27 e 29/09/2021",
+    "imagem": "2021-cosmologia-ufpr-01.png",
+    "url": ""
+  },
+  {
+    "titulo": "Visual Studio Code: IDE Instalação e Configuração",
+    "emissor": "Digital Innovation One",
+    "categoria": "ferramentas",
+    "slug": "visual-studio-code-ide-instalacao-e-configuracao",
+    "feitoEm": "09/12/2021",
+    "imagem": "2021-vscode-instalação-configuração.png",
+    "url": "#"
+  }
+]
