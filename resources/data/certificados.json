@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Orchestrating the Cloud with Kubernetes",
+    "emissor": "Coursera",
+    "categoria": "cloud",
+    "slug": "orchestrating-the-cloud-with-kubernets",
+    "feitoEm": "06/05/2026",
+    "imagem": "2026-orchestrating-the-cloud-with-kubernets.png",
+    "url": "https://coursera.org/share/eba68c206c75470ab24184357c2a0ad1"
+  },
+  {
     "titulo": "Nano Tips for Managing Neurodivergent Teams",
     "emissor": "LinkedIn Learning",
     "categoria": "produtividade",
