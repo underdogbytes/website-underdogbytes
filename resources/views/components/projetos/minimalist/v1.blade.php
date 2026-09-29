@@ -1,6 +1,6 @@
 <section id="projetos">
   <div class="section-title container-max-width">
-    <h2>Projetos em destaque</h2>
+    <h2>Nossos Clientes</h2>
     <div class="section-sub"></div>
   </div>
   <div class="wrap">
